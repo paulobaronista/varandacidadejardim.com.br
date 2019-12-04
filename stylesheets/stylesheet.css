@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -13,6 +13,7 @@ html {
     width: 100vw;
     overflow-x: hidden;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -37,7 +38,7 @@ body {
     height: 5px;
     background-color: black;
     margin: 6px 0;
-  }
+}
 
 nav {
     background-color: #fbe2b1;
@@ -49,10 +50,11 @@ nav {
 }
 
 nav .container {
- display: flex; align-items: center;
- padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
 
- justify-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -100,7 +102,7 @@ header {
     padding: 0.5rem;
 }
 
-form {
+/* form {
     background-color: black;
     color: white;
     max-width: 20rem;
@@ -115,7 +117,7 @@ form p {
 
 form div {
     margin: 2rem;
-}
+} */
 
 .input {
     background: #fbe2b1;
@@ -123,15 +125,18 @@ form div {
     padding: 0.75rem;
     font-size: 1.25rem;
     border: none;
-    margin: 0.25rem;
+    margin-bottom: 20px;
     width: 100%;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     resize: none;
 }
+.enviar {
+    margin-top: 20px;
+}
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #dab97a;
+    color: black;
     padding: 2rem;
 }
 
@@ -145,7 +150,7 @@ img {
 }
 
 .slider-bg .overlay {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
     padding: 4rem;
     min-height: 90vh;
@@ -161,13 +166,13 @@ img {
     color: white;
 }
 
-.overlay > div {
+.overlay>div {
     color: white;
     font-size: 200%;
 }
 
-.overlay > div > div {
-    background-color: rgba(0,0,0,0.5);
+.overlay>div>div {
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 2rem;
 }
@@ -190,7 +195,8 @@ img {
     font-size: 180%;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Trajan Pro', 'Times New Roman', Times, serif;
     text-transform: uppercase;
 }
@@ -207,7 +213,8 @@ legend {
     margin: 1rem;
 }
 
-#slider2 .slick-prev:before, #slider2 .slick-next:before {
+#slider2 .slick-prev:before,
+#slider2 .slick-next:before {
     color: black;
 }
 
@@ -226,17 +233,50 @@ footer {
 .menu-x {
     display: none;
 }
+
+.contato {
+    background: #000;
+    padding-bottom: 30px;
+}
+
+.contato p {
+    color: white;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contato .box {
+    max-width: 960px;
+    width: 100%;
+    margin: auto;
+}
+.contato .box form {
+    padding: 0 20px;
+}
+
+.contato .calendario {
+    background-color: #dab97a;
+    padding: 1rem 2rem;
+    margin: 0;
+    color: black;
+}
+
+.contato .calendario div {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 800px) {
     .menu {
-    display: none;
-    position: fixed;
-    background: white;
-    top: 0;
-    bottom: 0;
-    z-index: 99899999;
-    padding: 32px;
-    right: 0;
-    box-shadow: 3px 6px 18px 0px black;
+        display: none;
+        position: fixed;
+        background: white;
+        top: 0;
+        bottom: 0;
+        z-index: 99899999;
+        padding: 32px;
+        right: 0;
+        box-shadow: 3px 6px 18px 0px black;
     }
 
     .menu li {
@@ -254,14 +294,41 @@ footer {
         display: block;
         cursor: pointer;
     }
-    .wrap { flex-wrap: wrap; }
-    .pad { padding: 1rem!important; }
-    h2 { font-size: 120%!important; }
-    .slider-bg .overlay { width: 100%;
-        min-height: 40vh; }
-    .center-m { text-align: center!important; }
-    .container { padding: 0.75rem;  }
-    #muda { font-size: 24px!important; }
-    .font { font-size: 100%!important;}
-    .font span { padding: 0!important; }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .pad {
+        padding: 1rem !important;
+    }
+
+    h2 {
+        font-size: 120% !important;
+    }
+
+    .slider-bg .overlay {
+        width: 100%;
+        min-height: 40vh;
+    }
+
+    .center-m {
+        text-align: center !important;
+    }
+
+    .container {
+        padding: 0.75rem;
+    }
+
+    #muda {
+        font-size: 24px !important;
+    }
+
+    .font {
+        font-size: 100% !important;
+    }
+
+    .font span {
+        padding: 0 !important;
+    }
 }
