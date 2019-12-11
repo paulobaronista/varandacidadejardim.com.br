@@ -299,7 +299,6 @@
             </div>
     </section>
 
-
     <section id="localizacao" style="text-align: center; background: black; padding: 4rem; color: white; font-size: 200%;" class="font">
         <span style="padding: 0.5rem; border-bottom: 2px solid #dab97a;
         font-family: 'Trajan Pro', 'Times New Roman', Times, serif;">JUNTO AO ITAIM BIBI NA REGIÃO MAIS NOBRE DE SÃO
@@ -311,11 +310,11 @@
     </section>
     <section style="background-color: #f2e7d1; padding: 0.25rem;">
 
-        <div class="font" style="background-color: #dab97a; margin: auto;margin-top: -3rem; font-size: 200%; z-index: 3; text-align: center; max-width: 600px; position: relative; padding: 2rem;">
+        <div class="font" style="background-color: #dab97a; margin: auto;margin-top: -3rem; margin-bottom: 3rem; font-size: 200%; z-index: 3; text-align: center; max-width: 600px; position: relative; padding: 2rem;">
             <strong>Visite stand de vendas:</strong><br>
             Rua Itapé-Açú • Cidade Jardim<br><small>(Travessa da Av. Tajurás, junto ao Itaim Bibi)</small>
         </div>
-        <div class="container flex " style="justify-content: space-around; margin: 3rem auto; align-items: flex-start; text-align: center;">
+        <!-- <div class="container flex " style="justify-content: space-around; margin: 3rem auto; align-items: flex-start; text-align: center;">
             <div style="flex: 1; padding: 8px;">
                 <p style="margin-bottom: 8px;">Coordenação de vendas:</p>
                 <img src="images/Solai - logo.png" alt="" style="   margin: auto; display: block; pading: 8px; max-width: 100%;width: 180px;
@@ -331,7 +330,7 @@
                 <a href="http://maei.com.br/"><img src="images/M.A. - logo.png" alt="" style="  margin: auto; display: block; pading: 8px;  max-width: 100%;width: 180px;
     height: auto;"></a>
             </div>
-        </div>
+        </div> -->
     </section>
 
 
@@ -358,6 +357,29 @@
             </form>
         </div>
     </section>
+
+
+    <section style="background-color: #f2e7d1; padding: 0.25rem;">
+        <div class="container flex " style="justify-content: space-around; margin: 3rem auto; align-items: flex-start; text-align: center;">
+            <div style="flex: 1; padding: 8px;">
+                <p style="margin-bottom: 8px;">Coordenação de vendas:</p>
+                <img src="images/Solai - logo.png" alt="" style="   margin: auto; display: block; pading: 8px; max-width: 100%;width: 180px;
+height: auto;">
+            </div>
+            <div style="flex: 1; padding: 8px;">
+                <p style="margin-bottom: 16px;">Construção:</p>
+                <img src="images/tecnum.png" alt="" style="  margin: auto; display: block; pading: 8px;  max-width: 100%;width: 180px;
+height: auto;">
+            </div>
+            <div style="flex: 1; padding: 8px;">
+                <p style="margin-bottom: 8px;">Realização:</p>
+                <a href="http://maei.com.br/"><img src="images/M.A. - logo.png" alt="" style="  margin: auto; display: block; pading: 8px;  max-width: 100%;width: 180px;
+height: auto;"></a>
+            </div>
+        </div>
+    </section>
+
+
 
     <footer>
         <div class="container">
@@ -392,7 +414,7 @@
             fade: false,
             infinite: true,
             arrows: true,
-            autoplaySpeed: 2000,
+            autoplaySpeed: 3000,
             autoplay: true,
             adaptiveHeight: true
         });
